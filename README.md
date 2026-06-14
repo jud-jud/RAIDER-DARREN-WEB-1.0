@@ -36,7 +36,8 @@ Herramienta necesaria para que tus amigos (por ejemplo, desde España) puedan en
 2. **Configuración en la Consola:**
    * Abre una ventana de comandos (CMD) y vincula tu cuenta ejecutando tu token limpio:
      ```bash
-     ngrok config add-authtoken 3F4sh7Vx6CSovaQ3XRHsNAdZiv3_6DcHf6aboUPujdN2kQqtu
+     ngrok config add-authtoken $AUTH_TOKEN
+     ( **LO CONSIGUERAS EN "Your AuthToken" En ngrok** )
 Lanzar el Túnel Público:
 
 Una vez que tengas tu script Page.py corriendo en el puerto por defecto (8501), abre otra ventana de CMD diferente y arranca el túnel con el siguiente comando:
